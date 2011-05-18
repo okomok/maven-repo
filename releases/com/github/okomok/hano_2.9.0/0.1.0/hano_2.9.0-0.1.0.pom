@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.okomok</groupId>
+    <artifactId>hano_2.9.0</artifactId>
+    <packaging>jar</packaging>
+    <version>0.1.0</version>
+    <distributionManagement>
+        <repository>
+            <id>repo</id>
+            <url>http://okomok.github.com/maven-repo/releases</url>
+        </repository>
+        <repository>
+            <id>snapshot-repo</id>
+            <url>http://okomok.github.com/maven-repo/snapshots</url>
+        </repository>
+    </distributionManagement>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.9.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>festrelease</id>
+            <name>fest release</name>
+            <url>http://repository.codehaus.org/</url>
+        </repository>
+        <repository>
+            <id>scalatoolsorgSNAPSHOT</id>
+            <name>scala-tools.org-SNAPSHOT</name>
+            <url>http://scala-tools.org/repo-snapshots/</url>
+        </repository>
+        <repository>
+            <id>ScalaToolsMaven2Repository</id>
+            <name>Scala-Tools Maven2 Repository</name>
+            <url>http://scala-tools.org/repo-releases/</url>
+        </repository>
+    </repositories>
+</project>
